@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人主页 - 张文昊</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <span class="logo">My Homepage</span>
+    <ul class="nav-links">
+      <li><a href="#about">关于我</a></li>
+      <li><a href="#education">教育经历</a></li>
+      <li><a href="#skills">技能</a></li>
+      <li><a href="#links">我的链接</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero 区 -->
+  <header class="hero">
+    <img class="avatar" src="images/avatar.svg" alt="头像">
+    <h1>你好，我是张文昊</h1>
+    <p>学号 PB24000124 · 一名热爱技术的大学生，专注于 Web 开发与人工智能，喜欢把想法变成作品。</p>
+  </header>
+
+  <!-- 关于我 -->
+  <section id="about">
+    <h2 class="section-title">关于我</h2>
+    <p class="section-subtitle">About Me</p>
+    <div class="card">
+      <h3>个人简介</h3>
+      <p>
+        我是一名计算机相关专业的学生，对前端开发、数据结构和机器学习有着浓厚的兴趣。
+        在学习过程中，我逐渐掌握了 HTML、CSS、JavaScript 等前端技术，
+        也接触了 Python、C/C++ 等编程语言。课余时间喜欢阅读技术博客、参与开源项目，
+        并且乐于把学习中的收获记录下来，分享给更多的人。
+      </p>
+    </div>
+  </section>
+
+  <!-- 教育经历（表格） -->
+  <section id="education">
+    <h2 class="section-title">教育经历</h2>
+    <p class="section-subtitle">Education</p>
+    <table>
+      <thead>
+        <tr>
+          <th>时间</th>
+          <th>学校</th>
+          <th>专业 / 方向</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024 - 至今</td>
+          <td>中国科学技术大学</td>
+          <td>计算机科学与技术（学号 PB24000124）</td>
+        </tr>
+        <tr>
+          <td>2021 - 2024</td>
+          <td>某某中学</td>
+          <td>高中</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 技能 -->
+  <section id="skills">
+    <h2 class="section-title">技能特长</h2>
+    <p class="section-subtitle">Skills</p>
+    <div class="skills">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Python</span>
+      <span class="tag">C / C++</span>
+      <span class="tag">Git</span>
+      <span class="tag">机器学习</span>
+    </div>
+  </section>
+
+  <!-- 我的链接（三个超链接，均包含图片） -->
+  <section id="links">
+    <h2 class="section-title">我的链接</h2>
+    <p class="section-subtitle">点击图片即可跳转</p>
+    <div class="link-grid">
+      <div class="link-card">
+        <a href="https://github.com/zwh-124" target="_blank">
+          <img src="images/github.svg" alt="GitHub">
+        </a>
+        <div class="link-title">GitHub</div>
+        <div class="link-desc">我的代码仓库与开源项目</div>
+      </div>
+      <div class="link-card">
+        <a href="https://zwh-124.github.io/" target="_blank">
+          <img src="images/blog.svg" alt="个人博客">
+        </a>
+        <div class="link-title">个人博客</div>
+        <div class="link-desc">记录学习与生活点滴</div>
+      </div>
+      <div class="link-card">
+        <a href="mailto:1134150293@qq.com">
+          <img src="images/email.svg" alt="邮箱">
+        </a>
+        <div class="link-title">联系邮箱</div>
+        <div class="link-desc">欢迎与我交流</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>© 2026 张文昊 · 个人主页 · 使用 HTML + CSS 制作</p>
+  </footer>
+
+</body>
+</html>
